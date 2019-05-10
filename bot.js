@@ -11,7 +11,7 @@ client.on('message', message => {
   if (!message.content.startsWith(prefix)) return;
   var args = message.content.split(' ').slice(1);
   var argresult = args.join(' ');
-  if (message.author.id !== "499946624693567498") return;
+  if (message.author.id !== "260400980246396928") return;
 
   
   if (message.content.startsWith(prefix + 'setwatch')) {	
@@ -40,7 +40,7 @@ if (message.content.startsWith(prefix + 'setavatar')) {
 }
 
 if (message.content.startsWith(prefix + 'setT')) {
-  client.user.setGame(argresult, "https://www.twitch.tv/abu_droush");
+  client.user.setGame(argresult, "https://www.twitch.tv/overwatchleague");
      console.log('test' + argresult);
     message.channel.sendMessage(`Streaming: **${argresult}`)
 } 
