@@ -55,4 +55,4 @@ if (message.content.startsWith(prefix + 'setgame')) {
 });
 
 
-client.login(process.env.BOT_TOKEN);260400980246396928
+client.login(process.env.BOT_TOKEN);
