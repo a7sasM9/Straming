@@ -23,6 +23,7 @@
     "ytdl-core": "^0.21.1"
   },
 
+  "keywords": [
     "heroku",
     "discord.js"
   ],
