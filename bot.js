@@ -14,7 +14,7 @@ client.on('message', message => {
   if (message.author.id !== "260400980246396928") return;
 
   
-  if (message.content.startsWith(prefix + 'setwatch')) {	
+  if (message.content.startsWith(prefix + 'setwatch')) {
   client.user.setActivity(argresult, {type: 'WATCHING'})
      console.log('test' + argresult);
     message.channel.sendMessage(`Watch Now: **${argresult}`)
@@ -51,7 +51,8 @@ if (message.content.startsWith(prefix + 'setgame')) {
 } 
 
 
+
 });
 
 
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);260400980246396928
